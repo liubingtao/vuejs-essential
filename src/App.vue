@@ -1,6 +1,8 @@
 <template lang="pug">
     div#wrap
         TheHeader
+        div#main-container.container.main-container
+            router-view
         TheFooter
 </template>
 
